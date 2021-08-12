@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "running ./fileExists.sh as $USER"
+echo "running $0 as $USER"
 if [[ -f "$file" ]]; then
 	echo file "$file" does exit;
 else
